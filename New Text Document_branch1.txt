@@ -1,1 +1,2 @@
-hi branch1
+Hello Kraken!
+editing text file & push to branch1 from Kraken
