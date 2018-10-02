@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <title>Empty Page xxx </title>
+    <title>Tıklama sayacı </title>
 
 <style>
     #out { /* CSS code used in out */
@@ -14,6 +14,10 @@
         text-align: center;
         padding: 10px;
     }
+	
+	#hr2 {
+		color : red 
+	}
 </style>
 
 <script>
@@ -30,7 +34,7 @@ function cnt() {
 
 <h2 id=title></h2>
 
-<button onClick="cnt()">xxx</button>
+<button onClick="cnt()">Tıkla Bana!</button>
 
 <p id=out></p>
 
@@ -38,7 +42,7 @@ function cnt() {
 <b>Sample code</b>
 <pre id=sample></pre>
 
-<hr />
+<hr id = hr2 />
 <p>Ref: <a href="https://www.w3schools.com/js/" 
    target="ExternalDocument">JS Tutorial</a>
 </p>
@@ -48,7 +52,7 @@ function cnt() {
     //const title = document.getElementById("title");
     title.innerText = document.title;
     sample.innerText = cnt.toString();
-    out.innerHTML = "Modify all items marked xxx";
+    out.innerHTML = "all Modifyied :)";
     var count = 0; cnt();
 </script>
 
