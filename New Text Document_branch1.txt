@@ -3,4 +3,4 @@ editing text file & push to branch1 from Kraken
 -2.update !
 3.update from cloud !
 
-trying stach command !
+trying stach command !- from local to kraken(can you heer me?)
